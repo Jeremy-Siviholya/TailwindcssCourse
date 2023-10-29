@@ -722,6 +722,10 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -793,6 +797,22 @@ video {
   background-color: rgb(255 255 255 / 0.7);
 }
 
+.bg-blue-600\/70 {
+  background-color: rgb(37 99 235 / 0.7);
+}
+
+.bg-\[linear\] {
+  background-color: linear;
+}
+
+.bg-\[linear-gradin\] {
+  background-color: linear-gradin;
+}
+
+.bg-\[linear-gradient\] {
+  background-color: linear-gradient;
+}
+
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
@@ -823,6 +843,126 @@ video {
 
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.bg-\[linear-gradient\(\)\] {
+  background-image: linear-gradient();
+}
+
+.bg-\[linear-gradient\(1\)\] {
+  background-image: linear-gradient(1);
+}
+
+.bg-\[linear-gradient\(135\)\] {
+  background-image: linear-gradient(135);
+}
+
+.bg-\[linear-gradient\(135deg\)\] {
+  background-image: linear-gradient(135deg);
+}
+
+.bg-\[linear-gradient\(135deg\2c \)\] {
+  background-image: linear-gradient(135deg,);
+}
+
+.bg-\[linear-gradient\(135deg\2c \'\'\)\] {
+  background-image: linear-gradient(135deg,'');
+}
+
+.bg-\[linear-gradient\(135deg\2c \'\#cf\'\)\] {
+  background-image: linear-gradient(135deg,'#cf');
+}
+
+.bg-\[linear-gradient\(135deg\2c \'\#cfa9\'\)\] {
+  background-image: linear-gradient(135deg,'#cfa9');
+}
+
+.bg-\[linear-gradient\(135deg\2c \'\#cfa9ff\'\)\] {
+  background-image: linear-gradient(135deg,'#cfa9ff');
+}
+
+.bg-\[linear-gradient\(135deg\2c \'\#cfa9ff\'\2c \)\] {
+  background-image: linear-gradient(135deg,'#cfa9ff',);
+}
+
+.bg-\[linear-gradient\(135deg\2c \'\#cfa9ff\'\2c \'\'\)\] {
+  background-image: linear-gradient(135deg,'#cfa9ff','');
+}
+
+.bg-\[linear-gradient\(135deg\2c \'\#cfa9ff\'\2c \'3\'\)\] {
+  background-image: linear-gradient(135deg,'#cfa9ff','3');
+}
+
+.bg-\[linear-gradient\(135deg\2c \'\#cfa9ff\'\2c \'395c0\'\)\] {
+  background-image: linear-gradient(135deg,'#cfa9ff','395c0');
+}
+
+.bg-\[linear-gradient\(135deg\2c \'\#cfa9ff\'\2c \'395c0ff\'\)\] {
+  background-image: linear-gradient(135deg,'#cfa9ff','395c0ff');
+}
+
+.bg-\[linear-gradient\(135deg\2c \'\#cfa9ff\'\2c \'\#95c0ff\'\)\] {
+  background-image: linear-gradient(135deg,'#cfa9ff','#95c0ff');
+}
+
+.bg-\[linear-gradient\(135deg\2c \'\#cfa9ff\'\2c \"\#95c0ff\"\)\] {
+  background-image: linear-gradient(135deg,'#cfa9ff',"#95c0ff");
+}
+
+.bg-\[linear-gradient\(135deg\2c \"\#cfa9ff\"\2c \"\#95c0ff\"\)\] {
+  background-image: linear-gradient(135deg,"#cfa9ff","#95c0ff");
+}
+
+.bg-\[linear-gradient\(135deg\2c \'\#cfa9ff\'\2c \#95c0ff\)\] {
+  background-image: linear-gradient(135deg,'#cfa9ff',#95c0ff);
+}
+
+.bg-\[linear-gradient\(135deg\2c \#cfa9ff\2c \#95c0ff\)\] {
+  background-image: linear-gradient(135deg,#cfa9ff,#95c0ff);
+}
+
+.bg-\[linear-gradient\(130deg\2c \#\)\] {
+  background-image: linear-gradient(130deg,#);
+}
+
+.bg-\[linear-gradient\(130deg\2c \#cfa\)\] {
+  background-image: linear-gradient(130deg,#cfa);
+}
+
+.bg-\[linear-gradient\(130deg\2c \#cfa9ff\)\] {
+  background-image: linear-gradient(130deg,#cfa9ff);
+}
+
+.bg-\[linear-gradient\(130deg\2c \#cfa9ff\2c \#\)\] {
+  background-image: linear-gradient(130deg,#cfa9ff,#);
+}
+
+.bg-\[linear-gradient\(130deg\2c \#cfa9ff\2c \#95\)\] {
+  background-image: linear-gradient(130deg,#cfa9ff,#95);
+}
+
+.bg-\[linear-gradient\(130deg\2c \#cfa9ff\2c \#95c0ff\)\] {
+  background-image: linear-gradient(130deg,#cfa9ff,#95c0ff);
+}
+
+.bg-\[linear-gradient\(130deg\2c violet\2c \#95c0ff\)\] {
+  background-image: linear-gradient(130deg,violet,#95c0ff);
+}
+
+.bg-\[linear-gradient\(130deg\2c violet\2c \)\] {
+  background-image: linear-gradient(130deg,violet,);
+}
+
+.bg-\[linear-gradient\(130deg\2c violet\2c blue\)\] {
+  background-image: linear-gradient(130deg,violet,blue);
+}
+
+.bg-\[linear-gradient\(1deg\2c violet\2c blue\)\] {
+  background-image: linear-gradient(1deg,violet,blue);
+}
+
+.bg-\[linear-gradient\(150deg\2c violet\2c blue\)\] {
+  background-image: linear-gradient(150deg,violet,blue);
 }
 
 .from-blue-500 {
@@ -1096,14 +1236,98 @@ video {
   transition-duration: 500ms;
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.hover\:rounded-lg:hover {
+  border-radius: 0.5rem;
+}
+
+.hover\:rounded-full:hover {
+  border-radius: 9999px;
+}
+
 .hover\:bg-pink-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(219 39 119 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[linear-gradient\(150deg\2c violet\2c blue\)\]:hover {
+  background-image: linear-gradient(150deg,violet,blue);
+}
+
+.hover\:bg-\[linear-gradient\(150deg\2c pink\2c blue\)\]:hover {
+  background-image: linear-gradient(150deg,pink,blue);
+}
+
+.hover\:bg-\[linear-gradient\(350deg\2c pink\2c blue\)\]:hover {
+  background-image: linear-gradient(350deg,pink,blue);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c blue\)\]:hover {
+  background-image: linear-gradient(320deg,pink,blue);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c hotpink\)\]:hover {
+  background-image: linear-gradient(320deg,pink,hotpink);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c h\)\]:hover {
+  background-image: linear-gradient(320deg,pink,h);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c pink\)\]:hover {
+  background-image: linear-gradient(320deg,pink,pink);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c \)\]:hover {
+  background-image: linear-gradient(320deg,pink,);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c purple\)\]:hover {
+  background-image: linear-gradient(320deg,pink,purple);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c \#f\)\]:hover {
+  background-image: linear-gradient(320deg,pink,#f);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c \#7\)\]:hover {
+  background-image: linear-gradient(320deg,pink,#7);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c \#7dgdh\)\]:hover {
+  background-image: linear-gradient(320deg,pink,#7dgdh);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c \#7dgdhh\)\]:hover {
+  background-image: linear-gradient(320deg,pink,#7dgdhh);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c \#7dgd\)\]:hover {
+  background-image: linear-gradient(320deg,pink,#7dgd);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c \#7dgdff\)\]:hover {
+  background-image: linear-gradient(320deg,pink,#7dgdff);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c \#\)\]:hover {
+  background-image: linear-gradient(320deg,pink,#);
+}
+
+.hover\:bg-\[linear-gradient\(320deg\2c pink\2c violet\)\]:hover {
+  background-image: linear-gradient(320deg,pink,violet);
+}
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:duration-500:hover {
+  transition-duration: 500ms;
 }
 
 @media (min-width: 640px) {
