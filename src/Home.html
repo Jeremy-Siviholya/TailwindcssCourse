@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./Fonts/fontawesome/css/all.min.css" />
+  </head>
+  <body class="bg-white">
+    <div class="bg-white w-full">
+      <!-- Navbar -->
+      <div class="fixed w-full z-50">
+        <div class="h-20 flex relative justify-center bg-white shadow-sm">
+          <div class="absolute left-5 h-full flex items-center">
+            <div>
+               
+
+              <i class="fa-regular fa-hospital text-4xl text-gray-600"></i>
+            </div>
+          </div>
+          <div class="h-full flex items-center">
+            <ul class="flex space-x-6 text-[17px]">
+              <li class="lnk flex items-center gap-1">
+                <!-- <i class="fa-solid fa-house-chimney"></i>  -->
+                <a href="#Home">Acceuil</a>
+              </li>
+              <li class="lnk"><a href="#About">A Propos</a></li>
+               <li class="lnk"><a href="#Services">Services</a></li>
+              <li class="lnk"><a href="#Contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="absolute right-5 h-full flex items-center">
+            <a
+              class="bg-blue-600 text-white px-[1em] cursor-pointer py-[0.3em] rounded-md font-semibold space-x-3 hover:scale-110 duration-500"
+            >
+            <i class="fa-solid fa-wifi"></i>
+              <span>Se connecter</span> 
+          </a>
+          </div>
+        </div>
+      </div>
+      <!-- HOME -->
+      <div id="Home" class="h-[100vh] flex w-full overflow-hidden">
+        <div
+          class="w-1/2 bg-gradient-to-tr from-blue-600 to-purple-600 flex items-center justify-center px-20 flex-col space-y-10"
+        >
+          <p class="text-4xl text-center text-white">
+            La bonne santé est la racine de toute hépatite
+          </p>
+          <div>
+            <a
+              class="bg-white text-gray-500 px-[1em] py-[0.5em] cursor-pointer rounded-md font-semibold space-x-3 hover:scale-110 duration-500"
+            >
+            <i class="fa-solid fa-wifi"></i>
+              <span>Se connecter</span> 
+          </a>
+          </div>
+        </div>
+        <div
+          class="w-1/2 relative overflow-hidden flex justify-center items-center"
+        >
+          <div class="z-[3] text-5xl text-white">CPN MANAGEMENT</div>
+          <div
+            class="absolute top-0 left-0 right-0 bottom-0 bg-[#212121] bg-opacity-60 z-[2]"
+          ></div>
+          <img
+            src="./img/carousel-12.jpg"
+            class="absolute top-0 bottom-0 object-cover h-full left-0 right-0"
+            alt="caroussel-1"
+          />
+        </div>
+      </div>
+      <!-- About -->
+      <div id="About" class="h-[100vh] pt-4 flex bg-slate-200">
+        <div class="w-1/2 relative h-full">
+          <div
+            class="absolute left-28 w-[400px] h-[400px] imgA1 z-10 p-2 top-20 border bg-white"
+          >
+            <img src="./img/about-1.jpg" alt="" />
+            <div
+              class="absolute top-2 right-2 bottom-2 left-2 bg-[#212121] bg-opacity-10 w-[380px] h-[380px] z-20"
+            ></div>
+          </div>
+          <div
+            class="absolute bottom-5 right-2 bg-white w-[300px] p-2 rounded-md z-30 h-[300px] overflow-hidden"
+          >
+            <img src="./img/about-2.jpg" class="object-cover" alt="" />
+          </div>
+        </div>
+        <div class="w-1/2 relative h-full px-10 space-y-12">
+          <!-- first content -->
+          <div
+            class="bg-gray-300 flex justify-center items-center font-semibold rounded-full border w-[200px] mt-20 h-[50px]"
+          >
+            <p>A propos de nous</p>
+          </div>
+          <!-- second content -->
+          <div class="">
+            <h2 class="text-4xl text-gray-500 font-semibold">
+                Pourquoi devriez-vous <span class="text-blue-600">nous faire confiance</span> ? Découvrez-nous !          
+            </h2>
+          </div>
+          <!-- third content -->
+          <div class="space-y-8">
+            <p class="text-3xl ">
+              Quelques qualites
+            </p>
+           
+            <div class="flex font-semibold text-gray-600">
+              <ul class="about-3 space-y-2">
+                <li>Des soins de santé de qualité</li>
+                <li>Uniquement des médecins qualifiés</li>
+                <li>Professionnels de la recherche médicale</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- services -->
+
+      <div class="h-[100vh] bg-slate-200 border-t border" id="Services">
+            <div class="flex flex-col justify-center items-center h-full space-y-7">
+              <div class="op-28 text-4xl text-gray-600 flex justify-center  items-center">
+
+                <h2 >NOS SERVICES</h2>
+               
+              </div>
+              <div class="flex gap-3 ">
+
+                <div class="bg-white w-[300px] h-[300px] p-2 relative">
+                  <div class="absolute bottom-2 rounded-sm right-2 left-2 h-20 bg-gray-200 bg-opacity-90 flex justify-center items-center">
+                    <h2 class="text-2xl text-gray-500">LABORATOIRE</h2>
+                  </div>
+                  <img src="./img/carousel-11.jpg" class="object-cover h-full" alt="">
+                </div>
+                 <div class="bg-white w-[300px] h-[300px] p-2 relative">
+                  <div class="absolute bottom-2 rounded-sm right-2 left-2 h-20 bg-gray-200 bg-opacity-90 flex justify-center items-center">
+                    <h2 class="text-2xl text-gray-500">CONSULTATION</h2>
+                  </div>
+                  <img src="./img/carousel-1.jpg" class="object-cover h-full" alt="">
+                 </div>
+                 <div class="bg-white w-[300px] h-[300px] p-2 relative">
+                  <div class="absolute bottom-2 rounded-sm right-2 left-2 h-20 bg-gray-200 bg-opacity-90 flex justify-center items-center">
+                    <h2 class="text-2xl text-gray-500">CHIRURGIE</h2>
+                  </div>
+                  <img src="./img/carousel-13.jpg" class="object-cover h-full" alt="">
+                 </div>
+                 <div class="bg-white w-[300px] h-[300px] p-2 relative">
+                  <div class="absolute bottom-2 rounded-sm right-2 left-2 h-20 bg-gray-200 bg-opacity-90 flex justify-center items-center">
+                    <h2 class="text-2xl text-gray-500">PEDIATRIE</h2>
+                  </div>
+                  <img src="./img/carousel-12.jpg" class="object-cover h-full" alt="">
+                 </div>
+              </div>
+            </div>
+      </div>
+      <!-- Contact -->
+      <div
+        id="Contact"
+        class="h-72 text-white grid grid-cols-2 gap-5 bg-gray-800"
+      >
+        <div class="px-10 flex items-center justify-center border-r">
+          <div class="space-y-6">
+            <h2 class="font-semibold text-2xl adress relative">Address</h2>
+            <div>
+              <ul class="font-semibold space-y-3 ul-foot">
+                <li class="space-x-2 flex items-center">
+                <span>
+                    <i class="fa-solid text-[20px] fa-location-dot"></i>
+                </span>
+                <span>
+                  Quartier Katindo ,Av La frontiere Numero 77
+                </span>
+                </li>
+                  <li class="space-x-2 flex items-center">
+                <span>
+                    <i class="fa-solid text-[20px] fa-mobile"></i>
+                   
+                </span>
+                <span>
+                  +24367486464
+                </span>
+                </li>
+                 <li class="space-x-2 flex items-center">
+                <span>
+                    <i class="fa-solid text-[20px] fa-envelope-open-text"></i>
+                   
+                </span>
+                <span>
+                JohnDoe@example.com
+                </span>
+                </li>
+             
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="px-10 flex justify-center">
+          <div class="space-y-6 mt-16">
+            <h2 class="font-semibold text-2xl text-center adress relative">Visit us</h2>
+            <div>
+              <ul class="font-semibold flex space-x-4">
+                <li>
+                  <i class="fa-brands fa-facebook text-[26px] px-2 py-2 hover:bg-black duration-500 bg-[#212121] border rounded-md cursor-pointer"></i>
+                </li>
+                <li>
+                 <i class="fa-brands fa-whatsapp text-[26px] px-2 py-2 hover:bg-black duration-500 bg-[#212121] border rounded-md cursor-pointer"></i>
+                </li>
+                <li>
+                  <i class="fa-brands fa-twitter text-[26px] px-2 py-2 hover:bg-black duration-500 bg-[#212121] border rounded-md cursor-pointer"></i>
+                </li>
+                  <li>
+                  <i class="fa-brands fa-square-instagram text-[26px] px-2 py-2 hover:bg-black duration-500 bg-[#212121] border rounded-md cursor-pointer"></i>
+                </li>
+                     
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const li = document.querySelectorAll(".lnk");
+      li.forEach((l) => {
+        l.addEventListener("click", (e) => {
+          document.querySelector('.active')?.classList.remove('active')
+          e.target.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>
