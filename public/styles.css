@@ -41,6 +41,11 @@
   content: '-';
   @apply mr-2
 } */
+.follow::before {
+  content: "";
+  @apply w-[104px] -bottom-[8px] h-1 bg-white rounded-md absolute;
+}
+
 .adress::before {
   content: "";
   @apply w-[90px] -bottom-[8px] h-1 bg-white rounded-md absolute;
